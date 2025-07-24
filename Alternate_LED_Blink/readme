@@ -1,0 +1,28 @@
+# Alternate LED Blink on ESP32
+
+This project uses an ESP32 microcontroller to blink two LEDs alternately using GPIO pins. It's a simple beginner-level project to learn pin control using Embedded C with the Arduino framework.
+
+## 📌 Components Used
+- ESP32 board
+- 2 LEDs
+- 2 x 220Ω resistors
+- Breadboard and jumper wires
+
+## ⚙️ Pin Configuration
+- LED1 → GPIO 2  
+- LED2 → GPIO 4  
+
+## 💡 Working
+The code alternates between turning LED1 ON and LED2 OFF, and then LED1 OFF and LED2 ON every 1 second using the `digitalWrite()` and `delay()` functions.
+
+## 🧠 Skills Learned
+- Basic digital I/O control
+- Writing and uploading code to ESP32
+- Using GPIO pins effectively
+- Version control with GitHub
+
+## 🚀 Getting Started
+Upload the code in `alternate_led_blink.ino` to your ESP32 using Arduino IDE.
+
+## 🔗 License
+This project is open-source and free to use.
