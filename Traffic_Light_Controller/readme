@@ -1,0 +1,43 @@
+# Traffic Light Controller using ESP32
+
+This project simulates a basic traffic light system using an ESP32 and three LEDs (Red, Yellow, Green). The logic follows a standard traffic signal cycle with appropriate timing delays.
+
+## 🚦 Behavior
+
+- **Red Light ON** → 5 seconds  
+- **Yellow Light ON** → 2 seconds  
+- **Green Light ON** → 5 seconds  
+- Repeats in a loop
+
+## 🔧 Hardware Used
+
+- ESP32 Dev Module  
+- 3 x LEDs (Red, Yellow, Green)  
+- 3 x 220Ω Resistors  
+- Breadboard and jumper wires  
+- Micro USB cable
+
+## 📌 Wiring Diagram
+
+| LED Color | GPIO Pin | Resistor | Notes        |
+|-----------|----------|----------|--------------|
+| Red       | GPIO 2   | 220Ω     | Connect to GND via resistor |
+| Yellow    | GPIO 4   | 220Ω     | Connect to GND via resistor |
+| Green     | GPIO 5   | 220Ω     | Connect to GND via resistor |
+
+## 🧠 What You'll Learn
+
+- GPIO handling on ESP32  
+- Traffic signal logic using timing (`delay`)  
+- Clean use of macros (`#define`) for pin mapping  
+- How to simulate real-world systems using microcontrollers
+
+## 🚀 How to Run
+
+1. Connect LEDs as per the wiring above  
+2. Flash the code using Arduino IDE  
+3. LEDs will simulate the traffic light logic in a loop
+
+---
+
+> This is a beginner-level embedded systems project to strengthen understanding of GPIO control and logic structuring in C for microcontrollers.
