@@ -1,0 +1,12 @@
+# LED Blink on ESP32
+
+### Description:
+My first embedded C project using ESP32. This program blinks the onboard LED connected to GPIO2.
+
+### What I Learned:
+- Setting up Arduino IDE for ESP32
+- Writing and uploading Embedded C code
+- Using `pinMode`, `digitalWrite`, `delay`
+
+### Date:
+July 23, 2025
