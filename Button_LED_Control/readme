@@ -1,0 +1,28 @@
+# Button Controlled LED (ESP32)
+
+This project demonstrates how to control an LED using a push-button with an ESP32 microcontroller. When the button is pressed, the LED turns ON. When the button is released, the LED turns OFF.
+
+## Circuit Details
+
+- **LED** connected to GPIO2.
+- **Push-button** connected to GPIO4.
+- A pull-down resistor is used with the button to ensure proper logic level detection.
+
+## Components Used
+
+- ESP32 Dev Board
+- LED (any color)
+- 220Ω resistor (for LED)
+- Push-button
+- 10kΩ resistor (pull-down)
+- Breadboard & jumper wires
+
+## Code Highlights
+
+- `pinMode()` is used to set the LED as output and button as input.
+- `digitalRead()` checks button state.
+- `digitalWrite()` sets the LED accordingly.
+
+## Outcome
+
+When the button is pressed, the LED lights up. This is a basic example of reading digital input and controlling output using ESP32 and Embedded C.
