@@ -1,0 +1,13 @@
+A simple project to control LED brightness using PWM on ESP32.
+
+Hardware
+ESP32 board
+LED + 220Ω resistor
+
+Circuit
+LED connected to GPIO pin (through resistor) and GND
+
+How it Works
+PWM (Pulse Width Modulation) is used to vary LED brightness.
+The duty cycle of the PWM signal controls how bright or dim the LED appears.
+LED smoothly fades in and out.
