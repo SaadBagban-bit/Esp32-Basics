@@ -1,2 +1,2 @@
 # Esp32-Basics
-IDK What I am doing!
+Starting with some basic tasks using esp32 dev board.
